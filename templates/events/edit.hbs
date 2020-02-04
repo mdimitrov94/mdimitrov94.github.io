@@ -3,19 +3,19 @@
     <div class="login">
         <h1>Edit event</h1>
         <div class="group">
-            <input type="text" id="eventname" name="eventname" placeholder="Name of the event" value="{{data.eventname}}">
+            <input type="text" id="eventname" name="eventname" placeholder="Name of the event" required="" value="{{data.eventname}}">
             <label for="eventname">Name of the event</label>
         </div>
         <div class="group">
-            <input type="text" id="date" name="date" placeholder="Date" value="{{data.date}}">
+            <input type="text" id="date" name="date" placeholder="Date" required="" value="{{data.date}}">
             <label for="date">Date</label>
         </div>
         <div class="group">
-            <input type="text" id="description" name="description" placeholder="Description" value="{{data.description}}">
+            <input type="text" id="description" name="description" placeholder="Description" required="" value="{{data.description}}">
             <label for="description">Description</label>
         </div>
         <div class="group">
-            <input type="text" id="imgURL" name="imgURL" placeholder="Image" value="{{data.imgURL}}">
+            <input type="text" id="imgURL" name="imgURL" placeholder="Image" required="" value="{{data.imgURL}}">
             <label for="imgURL">Image</label>
         </div>
         <button type="submit">Post event</button>
