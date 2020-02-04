@@ -130,5 +130,14 @@
   .background .event-creator {
     margin: 4em auto 0;
   }
+  .display-details {
+    min-height: 420px;
+  }
+  .display-details .buttons {
+    width: 100%;
+  }
+  .display-details .buttons .button2 {
+    font-size: 20px;
+  }
 }
 /*# sourceMappingURL=responsive.css.map */

@@ -140,12 +140,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: 40%;
 }
 
 .display-details .button2 {
   background-color: rgba(51, 51, 51, 0.9);
   width: 100%;
+  text-align: center;
   padding: 0.5em 1em;
   border: none;
   border-radius: 0.3em;
