@@ -2,7 +2,7 @@
   .site-header {
     position: absolute;
     padding: 1em 0.5em;
-    font-size: 12px;
+    font-size: 16px;
   }
   .site-header .site-nav label {
     display: -webkit-box;
@@ -24,7 +24,7 @@
   .site-nav .menu li {
     text-align: center;
     background: #000;
-    padding: 0.5em;
+    padding: 1em;
     border-bottom: 1px solid #FFF;
   }
   #toggle {
