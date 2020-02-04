@@ -1,0 +1,112 @@
+@-webkit-keyframes slidein {
+  from {
+    -webkit-transform: translateY(0.3em);
+            transform: translateY(0.3em);
+  }
+  50% {
+    -webkit-transform: translateY(-0.3em);
+            transform: translateY(-0.3em);
+  }
+  to {
+    -webkit-transform: translateY(0.3em);
+            transform: translateY(0.3em);
+  }
+}
+
+@keyframes slidein {
+  from {
+    -webkit-transform: translateY(0.3em);
+            transform: translateY(0.3em);
+  }
+  50% {
+    -webkit-transform: translateY(-0.3em);
+            transform: translateY(-0.3em);
+  }
+  to {
+    -webkit-transform: translateY(0.3em);
+            transform: translateY(0.3em);
+  }
+}
+
+.site-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1em 2em;
+  color: #FFF;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)));
+  background: linear-gradient(rgba(0, 0, 0, 0.8));
+  position: absolute;
+  z-index: 5;
+  font-size: 22px;
+}
+
+.site-header .welcome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.site-header .welcome span {
+  margin-right: 0.5em;
+  color: #FC192D;
+  -webkit-animation: slidein 2s infinite;
+          animation: slidein 2s infinite;
+}
+
+.site-header .welcome p {
+  margin-left: 2em;
+}
+
+.site-header .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.site-header .menu li {
+  padding: 0 0.5em;
+}
+
+.site-header .menu li a {
+  font-family: 'Lato', sans-serif;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.site-header .menu li a:hover {
+  color: #FC192D;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
+}
+
+.site-header .menu li:nth-last-child(1) a {
+  color: yellow;
+}
+
+.site-header .menu li:nth-last-child(1) a:hover {
+  color: #FC192D;
+  -webkit-transition: color 0.4s;
+  transition: color 0.4s;
+}
+
+.site-header label {
+  display: none;
+}
+
+.site-header input[type="checkbox"] {
+  display: none;
+}
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,214 @@
+.site-main {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.site-main .section-main-banner {
+  position: relative;
+  top: 0;
+}
+
+.site-main .section-main-banner img {
+  width: 100%;
+  height: auto;
+}
+
+.site-main .section-main-banner h1 {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  color: #FFF;
+  font-size: 30px;
+  border-bottom: 1px solid #FFF;
+}
+
+.site-main .section-middle {
+  margin-top: -0.3em;
+  padding-top: 2em;
+  background: #E03737;
+  color: #FFF;
+  text-align: center;
+}
+
+.headings h2 {
+  font-size: 30px;
+  padding-bottom: 1em;
+}
+
+.headings p {
+  margin-bottom: 3em;
+}
+
+.section-middle .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+.section-middle .info .info2 {
+  width: 30%;
+  margin-bottom: 3em;
+}
+
+.section-middle .info .info2 img {
+  width: 100%;
+  height: 200px;
+}
+
+.section-middle .info .info2 div {
+  border: 2px solid #FFF;
+  margin-top: -4px;
+}
+
+.section-middle .info .info2 div p {
+  background: #FFF;
+  color: black;
+  padding: 1em;
+}
+
+.section-middle .info .info2 div h2 {
+  margin: 0.5em;
+}
+
+.section-more-info {
+  padding: 2em;
+  background: #1C1C1C;
+}
+
+.section-more-info .headings {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  color: #FFF;
+}
+
+.section-more-info .headings p {
+  color: #888888;
+}
+
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.list .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 30%;
+          flex: 1 0 30%;
+  margin: 1em;
+}
+
+.list .container img {
+  height: 64px;
+  margin-right: 1em;
+}
+
+.items h2 {
+  color: #FFF;
+  margin-bottom: 0.5em;
+}
+
+.items p {
+  color: #888888;
+}
+
+.notlogged {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.479);
+  width: 80%;
+  max-width: 1200px;
+  min-height: 480px;
+  margin: 7em auto 3em;
+  border: 5px solid #DF3D3D;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0 1.5rem 0 black;
+          box-shadow: 0 0 1.5rem 0 black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.notlogged h1 {
+  width: 80%;
+  text-align: center;
+}
+
+.notlogged span {
+  position: absolute;
+  top: 95%;
+}
+
+.notlogged div a {
+  width: 15%;
+  padding: 1em 3em;
+  border: none;
+  border-radius: 0.5em;
+  background-color: rgba(51, 51, 51, 0.9);
+  font-size: 20px;
+  color: #FFF;
+  font-weight: bold;
+  font-style: italic;
+  outline: none;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: background .4s;
+  transition: background .4s;
+}
+
+.notlogged a:hover {
+  background: #23272B;
+  cursor: pointer;
+}
+
+.background {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://webthemez.com/demo/shape-free-fitness-website-template/img/slides/2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=main.css.map */

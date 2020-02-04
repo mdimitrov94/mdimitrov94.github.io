@@ -1,0 +1,26 @@
+{{> header}}
+<form action="#/create" method="post" class="form">
+    <div class="login">
+        <h1>Create event</h1>
+        <div class="group">
+            <input type="text" id="eventname" name="eventname" placeholder="Name of the event">
+            <label for="eventname">Name of the event</label>
+        </div>
+        <div class="group">
+            <input type="text" id="date" name="date" placeholder="Date">
+            <label for="date">Date</label>
+        </div>
+        <div class="group">
+            <input type="text" id="description" name="description" placeholder="Description">
+            <label for="description">Description</label>
+        </div>
+        <div class="group">
+            <input type="text" id="imgURL" name="imgURL" placeholder="Image">
+            <label for="imgURL">Image</label>
+        </div>
+        <button type="submit">Post event</button>
+        <span>&copy Flex Gym 2020</span>
+    </div>
+
+</form>
+{{> footer}}

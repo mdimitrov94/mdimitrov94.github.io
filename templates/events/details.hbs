@@ -1,0 +1,19 @@
+{{> header}}
+<div class="background">
+    <div class="display-details">
+        <div class="details">
+            <img src="{{data.imgURL}}" alt="">
+            <h2>{{data.eventname}}</h2>
+            <h2>Date: {{data.date}}</h2>
+            <h2>Description:</h2>
+            <p>{{data.description}}</p>
+            <h2>Organizer: {{data.organizer}}</h2>
+        </div>
+        <div class="buttons">
+            <a href="#/edit/{{data._id}}" class="button2">Edit</a>
+            <a href="#/delete/{{data._id}}" class="button2">Delete</a>
+
+        </div>
+    </div>
+</div>
+{{> footer}}

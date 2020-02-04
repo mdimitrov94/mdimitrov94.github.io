@@ -1,0 +1,108 @@
+.form {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://webthemez.com/demo/shape-free-fitness-website-template/img/slides/2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form .login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.479);
+  width: 80%;
+  max-width: 1200px;
+  min-height: 480px;
+  margin: 7em auto 3em;
+  border: 5px solid #DF3D3D;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0 1.5rem 0 black;
+          box-shadow: 0 0 1.5rem 0 black;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form .login h1 {
+  padding: 0.2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  color: #23272B;
+}
+
+.form .login .group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.form .login .group input {
+  padding: 0.5em;
+  border-radius: 0.3em;
+  outline: none;
+}
+
+.form .login .group label {
+  margin: 0.5em auto;
+}
+
+.form .login button {
+  padding: 1em 3em;
+  border: none;
+  border-radius: 0.5em;
+  background-color: rgba(51, 51, 51, 0.9);
+  font-size: 20px;
+  color: #FFF;
+  font-weight: bold;
+  outline: none;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: background .4s;
+  transition: background .4s;
+}
+
+.form .login button:hover {
+  background: #23272B;
+  cursor: pointer;
+}
+
+.form .login p {
+  margin: 1em auto;
+  text-align: center;
+  font-size: 26px;
+}
+
+.form .login span {
+  margin: 0 auto;
+}
+/*# sourceMappingURL=login.css.map */

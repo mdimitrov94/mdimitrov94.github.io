@@ -1,0 +1,48 @@
+@import "./mixins.scss";
+.form {
+    @include background;
+   // height: auto;
+    .login {
+        @include holder;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        h1 {
+            padding: 0.2em;
+            display: flex;
+            align-self: center;
+            color: #23272B;
+        }
+        .group {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 60%;
+            text-align: center;
+            margin: 0 auto;
+            input {
+                padding: 0.5em;
+                border-radius: 0.3em;
+                outline: none;
+            }
+            label {
+                margin: 0.5em auto;
+            }    
+        } 
+        button {
+            @include button;
+        }    
+        button:hover {
+            background: #23272B;
+            cursor: pointer;
+        }
+        p {
+            margin: 1em auto;
+            text-align: center;
+            font-size: 26px;
+        }
+        span {
+            margin: 0 auto;
+        };
+    }
+}

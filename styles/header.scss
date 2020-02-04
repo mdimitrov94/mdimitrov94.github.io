@@ -1,0 +1,69 @@
+@import "./mixins.scss";
+@keyframes slidein {
+    from {
+      transform: translateY(0.3em);
+    }
+  
+    50% {
+      transform: translateY(-0.3em);
+    }
+  
+    to {
+    transform: translateY(0.3em);
+    }
+  }
+.site-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    color: $headings;
+    background: linear-gradient(rgba(black, 0.8));
+    position: absolute;
+    z-index: 5;
+    font-size: 22px;
+    .welcome {
+        display: flex;
+        align-items: center;
+        //font-size: 26px;
+        span {
+            //font-size: x-large;
+            margin-right: 0.5em;
+            color: #FC192D;
+            animation: slidein 2s infinite;
+        }
+        p {
+            //font-size: 24px;
+            margin-left: 2em;
+        }
+    }
+    .menu {
+        display: flex;
+        list-style: none;
+        li {
+            padding: 0 0.5em;
+            a {
+                font-family: 'Lato', sans-serif;
+                color: $headings;
+                text-decoration: none;
+                //font-size: 26px;
+                font-weight: 500;
+            }
+            a:hover {
+                color: #FC192D;
+                transition: color 0.4s;
+            }
+        }
+        li:nth-last-child(1) {
+            a { color: yellow;}
+            a:hover {color: #FC192D; transition: color 0.4s;}
+        }
+    }
+    label {
+        display: none;
+    }
+    input[type="checkbox"] {
+        display: none;
+    }
+}

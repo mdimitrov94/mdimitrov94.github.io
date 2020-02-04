@@ -1,0 +1,164 @@
+.background {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://webthemez.com/demo/shape-free-fitness-website-template/img/slides/2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  min-height: 40rem;
+  height: auto;
+}
+
+.background .event-creator {
+  margin: 7em auto 1em;
+  padding: 1em;
+  background: rgba(53, 103, 196, 0.829);
+  color: #FFF;
+  text-decoration: none;
+  border-radius: 0.5em;
+  font-size: 20px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.background .event-creator:hover {
+  background: #DF3D3D;
+  cursor: pointer;
+}
+
+.background .make-events {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 3%;
+}
+
+.background .make-events h1 {
+  color: #FFF;
+}
+
+.background .events {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 80%;
+  max-width: 1200px;
+  margin: 1em auto 0;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.background .display-event {
+  width: 30%;
+  background-color: rgba(255, 255, 255, 0.479);
+  margin-bottom: 5%;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  -webkit-box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.75);
+  border-radius: 0.3em;
+  padding: 0.5em;
+}
+
+.background .display-event img {
+  margin-top: 0.5em;
+  width: 100%;
+  height: 200px;
+  border: 1px solid #000;
+}
+
+.display-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.479);
+  width: 80%;
+  max-width: 1200px;
+  min-height: 480px;
+  margin: 7em auto 3em;
+  border: 5px solid #DF3D3D;
+  border-radius: 1rem;
+  -webkit-box-shadow: 0 0 1.5rem 0 black;
+          box-shadow: 0 0 1.5rem 0 black;
+  padding: 1em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+}
+
+.display-details .details {
+  text-align: center;
+}
+
+.display-details .details img {
+  width: 500px;
+  -webkit-box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 12px 5px rgba(0, 0, 0, 0.75);
+}
+
+.display-details .details h2 {
+  padding: 0.5em;
+  text-decoration: underline;
+}
+
+.display-details .buttons {
+  margin: 0 auto;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+}
+
+.display-details .button2 {
+  background-color: rgba(51, 51, 51, 0.9);
+  width: 100%;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 0.3em;
+  margin: 0.5em;
+  color: #FFF;
+  font-size: 25px;
+  -webkit-transition: .4s;
+  transition: .4s;
+  text-decoration: none;
+}
+
+.display-details .button2:hover {
+  background: #23272B;
+  cursor: pointer;
+}
+/*# sourceMappingURL=events.css.map */

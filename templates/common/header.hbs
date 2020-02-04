@@ -1,0 +1,25 @@
+<header class="site-header">
+    <div class="welcome">
+        <span><i class="fas fa-heartbeat"></i></span>
+        <h3>FLEX GYM</h3>
+        {{#if loggedIn}}
+        <p>Hi, <span>{{name}}</span></p>
+        {{/if}}
+    </div>
+    <nav class="site-nav">
+        <label for="toggle">&#9776</label>
+        <input type="checkbox" id="toggle">
+        <ul class="menu">
+            <li><a href="#/">Home</a></li>
+            <li><a href="#/events">Events</a></li>
+            <li><a href="#/gallery">Gallery</a></li>
+            <li><a href="#/about">About</a></li>
+            {{#if loggedIn}}
+            <li><a href="#/logout">Logout</a></li>
+            {{else}}
+            <li><a href="#/login">Login</a></li>
+            {{/if}}
+        </ul>
+
+    </nav>
+</header>

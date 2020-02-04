@@ -1,0 +1,79 @@
+.gallery-wrapper {
+  background: #888888;
+}
+
+.gallery-wrapper .gallery {
+  padding: 2em;
+  list-style: none;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em;
+}
+
+.gallery-wrapper .gallery li {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 0.1em;
+  background: #FFF;
+}
+
+.gallery-wrapper .gallery li img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.gallery-wrapper .gallery li:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.section-main-banner {
+  position: relative;
+  top: 0;
+}
+
+.section-main-banner img {
+  width: 100%;
+  height: auto;
+}
+
+.section-main-banner h1 {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  color: #FFF;
+  font-size: 30px;
+  border-bottom: 1px solid #FFF;
+}
+
+.black {
+  margin-top: -0.3em;
+  width: 100%;
+  height: 70px;
+  background: #000000;
+}
+
+.red {
+  height: 100px;
+  background: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.red h1 {
+  color: #FFF;
+  font-size: 30px;
+}
+/*# sourceMappingURL=gallery.css.map */
