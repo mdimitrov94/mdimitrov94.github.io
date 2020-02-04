@@ -51,7 +51,8 @@
     }
   }
   ////site main
-  .site-main .section-main-banner h1 {
+  .site-main .section-main-banner h1,
+  .section-main-banner .text h1 {
     font-size: 15px;
   }
 
@@ -96,6 +97,9 @@
     }
   }
   /// login
+  .form .login {
+    margin: 3em auto 2em
+  }
   .form .login p {
     text-align: center;
     font-size: 18px;
