@@ -27,6 +27,9 @@
     padding: 1em;
     border-bottom: 1px solid #FFF;
   }
+  .site-nav .menu li a {
+    width: 100%;
+  }
   #toggle {
     display: none;
   }
@@ -38,6 +41,27 @@
 }
 
 @media (max-width: 450px) {
+  .notlogged {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.479);
+    width: 80%;
+    max-width: 1200px;
+    min-height: 480px;
+    margin: 7em auto 3em;
+    border: 5px solid #DF3D3D;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0 0 1.5rem 0 black;
+            box-shadow: 0 0 1.5rem 0 black;
+    -webkit-box-pack: stretch;
+        -ms-flex-pack: stretch;
+            justify-content: stretch;
+    min-height: 300px;
+  }
+  .notlogged h1 {
+    margin-top: 2em;
+  }
   .site-main .section-main-banner h1 {
     font-size: 15px;
   }

@@ -1,6 +1,9 @@
 @import "./mixins.scss";
 
 @media (max-width: 900px) {
+
+  //// header
+
   .site-header {
     position: absolute;
     padding: 1em 0.5em;
@@ -22,8 +25,11 @@
       background: #000;
       padding: 1em;
       border-bottom: 1px solid $headings;
+      a {
+        width: 100%;
       }
-   }
+    }
+  }
    #toggle {
      display: none;
    }
@@ -32,8 +38,16 @@
    }
 }
 @media (max-width: 450px) {
+  //// required to login
+  .notlogged {
+    @include holder;
+    justify-content: stretch;
+    min-height: 300px;
+    h1 {
+        margin-top: 2em;
+    }
+  }
   ////site main
-  
   .site-main .section-main-banner h1 {
     font-size: 15px;
   }
