@@ -39,6 +39,11 @@
    #toggle:checked + .menu {
      display: flex;
    }
+
+
+   .display-details .details img {
+    width: 350px;
+  }
 }
 @media (max-width: 450px) {
   //// required to login
@@ -126,6 +131,9 @@
   }
   .display-details .buttons .button2 {
     font-size: 20px;
+  }
+  .display-details .details img {
+    width: 100%;
   }
 }
 
