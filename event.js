@@ -70,6 +70,7 @@ export const event = {
             eventname,
             date,
             description,
+            organizer: ctx.name,
             imgURL
         })
         ctx.redirect(`#/details/${ctx.params.id}`)
